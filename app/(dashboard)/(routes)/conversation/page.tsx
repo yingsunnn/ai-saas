@@ -39,10 +39,12 @@ const Conversation = () => {
       };
       const newMessages = [...messages, userMessage];
 
-      console.log("client: newMessages: " + newMessages);
+      console.log("client: newMessages: " + JSON.stringify(newMessages));
       const response = await axios.post("/api/conversation", {
-        message: newMessages,
+        messages: newMessages,
       });
+
+      console.log("client get response: ", JSON.stringify(response));
 
       setMessages((current) => [...current, userMessage, response.data]);
 
