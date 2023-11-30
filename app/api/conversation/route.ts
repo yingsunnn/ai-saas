@@ -28,6 +28,8 @@ export async function POST(req: Request) {
       messages,
     });
 
+    console.log("response: ", JSON.stringify(response))
+
     return NextResponse.json(response.choices[0].message);
   } catch (error) {
     console.log("[CONVERSATION_ERROR]", error);
