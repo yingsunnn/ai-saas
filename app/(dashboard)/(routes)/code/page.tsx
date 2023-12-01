@@ -56,7 +56,7 @@ const CodePage = () => {
     } catch (error) {
       console.log(error);
     } finally {
-      router.refresh;
+      router.refresh();
     }
   };
 
