@@ -45,14 +45,13 @@ const ConversationPage = () => {
         role: "user",
         content: values.prompt,
       };
-      const newMessages = [...messages, userMessage];
+      const newMessages = [...messages.slice(-6), userMessage];
 
-      console.log("client: newMessages: " + JSON.stringify(newMessages));
       const response = await axios.post("/api/conversation", {
         messages: newMessages,
       });
 
-      setMessages((current) => [...current, userMessage, response.data]);
+      setMessages((current) => [...current.slice(-6), userMessage, response.data]);
 
       form.reset();
     } catch (error: any) {
