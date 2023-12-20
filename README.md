@@ -72,4 +72,4 @@ Revolutionize your digital experience with AI-driven conversation, code, image, 
   ```
 
 # Reference
-The project is based on this [YouTube Tutorial]https://youtu.be/ffJ38dBzrlY?si=v2viBUN_qJIb0m-Z)
+The project is based on this [YouTube Tutorial](https://youtu.be/ffJ38dBzrlY?si=v2viBUN_qJIb0m-Z)
