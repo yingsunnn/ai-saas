@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Summary
+Revolutionize your digital experience with AI-driven conversation, code, image, music, and video generation. Effortlessly manage subscriptions, sign up, and connect with customer support for personalized assistance. 
 
-## Getting Started
+# Teck Stack
+- [OpenAI API](https://platform.openai.com/)
+- [Stripe](https://stripe.com/)
+- [clerk](https://clerk.com/)
+- [crisp](https://crisp.chat/en/chatbot/)
+- [PlanetScale](https://planetscale.com/)
+- MySQL
+- NextJS 14
+- axios
+- [react-hot-toast](https://github.com/timolins/react-hot-toast)
+- [react-markdown](https://github.com/remarkjs/react-markdown)
+- [TypewriterJS v2](https://github.com/tameemsafi/typewriterjs)
+- [zustand](https://github.com/pmndrs/zustand)
+- [Prisma](https://www.prisma.io/)
 
-First, run the development server:
+# Features
+- AI Generation
+  - Conversation
+  - Code Generation
+  - Image Generation
+  - Music Generation
+  - Video Generation
+- Payment
+  - Subscription
+  - Cancel subscription
+- User Management
+  - Sign up
+  - Sign in
+  - Sign out
+  - Manage account
+- Customer Support
+  - Chat with Customer Service online
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Screenshots
+- Landing page
+  ![Landing page](./screenshots/landing.jpg)
+- Code Generation
+  ![Code Generation](./screenshots/code.jpg)
+- Sbuscription Payment
+  ![Sbuscription Payment](./screenshots/payment.jpg)
+- Customer Service
+  ![Customer Service](./screenshots/custome_service.jpg)
+- Upgrade Modal
+  ![Upgrade Modal](./screenshots/upgrade_moda.jpg)
+- Welcome Page
+  ![Welcome Page](./screenshots/welcome.jpg)
+- Sign In
+  ![Sign In](./screenshots/sign_in.jpg)
+- Sign Out
+  ![Sign Out](./screenshots/sign_out.jpg)
+- Settings
+  ![Settings](./screenshots/settings.jpg)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+# Getting Started
+1. Installation
+  ```shell
+  npm install
+  ```
+2. Run the development server
+  ```shell
+  npm run dev
+  ```
+3. Open page with your browser to see the result.
+  [http://localhost:3000](http://localhost:3000)
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# Reference
+The project is based on this [YouTube Tutorial]https://youtu.be/ffJ38dBzrlY?si=v2viBUN_qJIb0m-Z)
