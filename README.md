@@ -54,9 +54,6 @@ Revolutionize your digital experience with AI-driven conversation, code, image, 
 - Settings
   ![Settings](./screenshots/settings.jpg)
 
-
-
-
 # Getting Started
 1. Installation
   ```shell
@@ -68,6 +65,11 @@ Revolutionize your digital experience with AI-driven conversation, code, image, 
   ```
 3. Open page with your browser to see the result.
   [http://localhost:3000](http://localhost:3000)
+
+4. DB tool
+  ```shell
+  npx prisma studio
+  ```
 
 # Reference
 The project is based on this [YouTube Tutorial]https://youtu.be/ffJ38dBzrlY?si=v2viBUN_qJIb0m-Z)
